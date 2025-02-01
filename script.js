@@ -1,5 +1,5 @@
 const API_URL =
-  "https://api.unsplash.com/photos/random?count=5&query=products&client_id=SA4Y0nKXhaJFPjaLR2Y5F9DsWBdJMhVKm1UXXDcRZrQ";
+  "https://api.unsplash.com/photos/random?count=5&query=products&client_id=ACCESS_KEY";
 
 const mainImage = document.getElementById("main-image");
 const thumbnailsContainer = document.getElementById("thumbnails");
