@@ -1,88 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - Product Details Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 40px;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        code {
-            background: #eaeaea;
-            padding: 4px;
-            border-radius: 4px;
-            font-family: "Courier New", monospace;
-        }
-        pre {
-            background: #eaeaea;
-            padding: 10px;
-            border-radius: 4px;
-            overflow-x: auto;
-        }
-        .container {
-            max-width: 800px;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-    </style>
-</head>
-<body>
 
-<div class="container">
-    <h1>Product Details Page with Carousel, Thumbnails, and API Integration</h1>
+# Product Details Page with Carousel, Thumbnails, and API Integration
 
-    <h2>Project Overview</h2>
-    <p>This project is a <strong>product details page</strong> for an e-commerce website. It features:</p>
-    <ul>
-        <li>A <strong>carousel with thumbnails</strong> to view product images.</li>
-        <li><strong>API integration</strong> to fetch product images dynamically.</li>
-        <li>A <strong>product information section</strong> with details, a quantity selector, and an "Add to Cart" button.</li>
-        <li>A <strong>fully responsive design</strong> optimized for mobile and desktop views.</li>
-    </ul>
 
-    <h2>Tech Stack</h2>
-    <ul>
-        <li><strong>HTML</strong> – Structure of the page</li>
-        <li><strong>CSS</strong> – Styling and layout</li>
-        <li><strong>JavaScript (Vanilla JS)</strong> – Functionality and API integration</li>
-    </ul>
 
-    <h2>Features</h2>
-    <ul>
-        <li>✅ <strong>Image Carousel:</strong> Fetches images from an API and allows users to navigate through thumbnails.</li>
-        <li>✅ <strong>API Integration:</strong> Uses <strong>Unsplash API</strong> or <strong>Lorem Picsum API</strong> to dynamically load images.</li>
-        <li>✅ <strong>Product Details Section:</strong> Displays product name, price, description, and variant selector.</li>
-        <li>✅ <strong>Add to Cart:</strong> Includes a button that confirms the product is added to the cart.</li>
-        <li>✅ <strong>Mobile Responsive:</strong> Adapts for smaller screens with touch/swipe functionality.</li>
-    </ul>
 
-    <h2>Installation & Setup</h2>
-    <p><strong>1. Clone the Repository:</strong></p>
-    <pre><code>git clone https://github.com/venkateshvishnuperumal/product-details-page-assignment.git</code></pre>
+## Project Overview
 
-    <p><strong>2. Navigate to the Project Directory:</strong></p>
-    <pre><code>cd product-details-page-assignment</code></pre>
+This project is a product details page for an e-commerce website. It features:
 
-    <p><strong>3. Open <code>index.html</code> in a Browser:</strong></p>
-    <p>Simply open the file in your preferred browser—no server required.</p>
+1. A carousel with thumbnails that allows users to view product images.
 
-    <h2>API Integration</h2>
-    <p>The project fetches images using the Unsplash or Lorem Picsum API.</p>
-    <p><strong>Example API call:</strong></p>
-    <pre><code>fetch('https://api.unsplash.com/photos/random?count=5&query=products&client_id=YOUR_ACCESS_KEY')</code></pre>
-    <p>Update the API key if using <strong>Unsplash</strong>.</p>
+2. API integration to fetch product images dynamically.
 
-</div>
+3. A product information section with details, a quantity selector, and an "Add to Cart" button.
 
-</body>
-</html>
+4. A fully responsive design optimized for mobile and desktop views.
+## Tech Stack
+
+HTML – Structure of the page
+
+CSS – Styling and layout (without external frameworks like Bootstrap)
+
+JavaScript (Vanilla JS) – Functionality and API integration
+## Features
+
+✔️ Image Carousel: Fetches images from an API and allows users to navigate through thumbnails.
+
+✔️ API Integration: Uses Unsplash API or Lorem Picsum API to dynamically load images.
+
+✔️ Product Details Section: Displays product name, price, description, and variant selector.
+
+✔️ Add to Cart: Includes a button that confirms the product is added to the cart.
+
+✔️ Mobile Responsive: Adapts for smaller screens with touch/swipe functionality.
+## Installation & Setup
+
+1. Clone the Repository:
+   
+    git clone https://github.com/venkateshvishnuperumal/product-details-page-assignment.git
+
+2. Navigate to the Project Directory:
+
+    cd product-details-page-assignment
+
+3. Open index.html in a Browser:
+
+    Simply open the file in your preferred browser—no server required.
