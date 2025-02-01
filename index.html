@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="product-details">
+      <h1>Product Details</h1>
+    </div>
+    <div class="product-container">
+      <div class="carousel">
+        <div class="main-image">
+          <img id="main-image" src="" alt="Main Product Image" />
+          <button class="arrow left-arrow">&lt;</button>
+          <button class="arrow right-arrow">&gt;</button>
+        </div>
+        <div class="thumbnails" id="thumbnails"></div>
+      </div>
+
+      <div class="product-info">
+        <h1 id="product-name"></h1>
+        <p id="product-price">0.00</p>
+        <p id="product-description"></p>
+        <div class="variant-selector">
+          <label for="size">Size:</label>
+          <select id="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+          </select>
+        </div>
+
+        <div class="quantity-selector">
+          <label for="quantity">Quantity:</label>
+          <div class="quantity-controls">
+            <button class="quantity-minus">-</button>
+            <input type="number" id="quantity" value="1" min="1" />
+            <button class="quantity-plus">+</button>
+          </div>
+        </div>
+        <button id="add-to-cart">Add to Cart</button>
+        <p id="confirmation-message" class="hidden">Added to cart!</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
